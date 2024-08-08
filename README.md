@@ -86,6 +86,8 @@ Now open Visual studio (you need to install extension terraform)
 - terraform validate
 - terraform plan
 - terraform apply
+
 Now you can see in AWS console that EC2 instance is created.
 If you want to delete what you have created use
+
 - terraform destroy
