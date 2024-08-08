@@ -58,29 +58,29 @@ Terraform Backend:
 ### Terraform locally installed and configured AWS and created resources
 Process:
 We need to install terraform
-•	URL: https://developer.hashicorp.com/terraform/install
-•	Select windows (AMD64)
-•	Unzip it and place in C drive (new folder: terraform)
-•	Then search for edit system environment variables (settings) – select environment variables – then select PATH click edit – then click new – add path where you placed in C drive (C:\terraform)
-•	Terraform is installed – check in command prompt – terraform --version
+- URL: https://developer.hashicorp.com/terraform/install
+- Select windows (AMD64)
+- Unzip it and place in C drive (new folder: terraform)
+- Then search for edit system environment variables (settings) – select environment variables – then select PATH click edit – then click new – add path where you placed in C drive (C:\terraform)
+- Terraform is installed – check in command prompt – terraform --version
 
 We need to install AWS CLI
-•	URL: https://awscli.amazonaws.com/AWSCLIV2.msi
-•	Normal installing process click next, next and it will do it.
-•	AWS CLI is installed - check in command prompt – aws --version
+- URL: https://awscli.amazonaws.com/AWSCLIV2.msi
+- Normal installing process click next, next and it will do it.
+- AWS CLI is installed - check in command prompt – aws --version
 
 In order to work with AWS we need to configure it for that we need access key that we get after create IAM user
-•	Go to aws console – search IAM user – create user – give permissions – create 
-•	We can see security credentials click – click access key – select Command Line Interface (CLI) – click next – click access key 
-•	After that copy access key and access password
+- Go to aws console – search IAM user – create user – give permissions – create
+- We can see security credentials click – click access key – select Command Line Interface (CLI) – click next – click access key
+- After that copy access key and access password
 or 
-we can add in provider.tf file
+- we can add in provider.tf file
 
 Now open Visual studio (you need to install extension terraform)
-•	Create folder terraform – create new file main.tf write file to create AWS EC2 instances – save
-•	Now open terminal – check terraform and AWS version
-•	We need to configure aws – aws configure (provide access key & secret key) or we can add in provider.tf file
-•	Now run terraform commands
+- Create folder terraform – create new file main.tf write file to create AWS EC2 instances – save
+- Now open terminal – check terraform and AWS version
+- We need to configure aws – aws configure (provide access key & secret key) or we can add in provider.tf file
+- Now run terraform commands
 - terraform init
 - terraform fmt
 - terraform validate
