@@ -1,7 +1,7 @@
 # Terraform
-It is open source infrastructure as a code tool developed by Hashicorp.
-It allows developers to define, manage and provision infrastructure resources in declarative manner using simple and human readable configuration languages.
-With terraform u can define your entire infrastructure stack including VM storage network other cloud resources.
+- It is open source infrastructure as a code tool developed by Hashicorp.
+- It allows developers to define, manage and provision infrastructure resources in declarative manner using simple and human readable configuration languages.
+- With terraform u can define your entire infrastructure stack including VM storage network other cloud resources.
 
 Benefits:
 •	Consistency
