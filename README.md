@@ -3,52 +3,59 @@
 - It allows developers to define, manage and provision infrastructure resources in declarative manner using simple and human readable configuration languages.
 - With terraform u can define your entire infrastructure stack including VM storage network other cloud resources.
 
-Benefits:
-•	Consistency
-•	Version control
-•	Automation
-•	Reduced human error
+### Benefits:
+- Consistency
+- Version control
+- Automation
+- Reduced human error
 
-Key Features:
-•	Supports multiple cloud providers
-•	Declarative configuration language (HCL - HashiCorp Configuration  Language)
-•	Execution plans
-•	Resource graph
-•	Change automation
+### Key Features:
+- Supports multiple cloud providers
+- Declarative configuration language (HCL - HashiCorp Configuration  Language)
+- Execution plans
+- Resource graph
+- Change automation
 
-Terraform Commands
-Initialize Terraform: terraform init
-Format Configuration Files: terraform fmt
-Validate Configuration: terraform validate
-Generate Execution Plan: terraform plan
-Apply Changes: terraform apply
-Destroy Resources: terraform destroy
+### Terraform Commands
+- Initialize Terraform: terraform init
+- Format Configuration Files: terraform fmt
+- Validate Configuration: terraform validate
+- Generate Execution Plan: terraform plan
+- Apply Changes: terraform apply
+- Destroy Resources: terraform destroy
 
-Terraform files
-•	Main.tf
-•	Variable.tf
-•	Provider.tf
-•	Output.tf
-•	Backend.tf
+### Terraform files
+- Main.tf
+- Variable.tf
+- Provider.tf
+- Output.tf
+- Backend.tf
+
 Provider Block: 
-•	The provider block specifies the cloud or infrastructure provider you want to use. 
-•	It defines the connection details and credentials required to authenticate with the provider's API.
-Resource Blocks: 
-•	Resource blocks define the individual infrastructure resources that Terraform will manage.
-•	They represent the resources you want to create, modify, or delete. Each resource block has a unique type and a set of arguments that configure the resource.
-Data Blocks: 
-•	Data blocks allow you to fetch information from external sources, like existing resources or APIs, and use that data in your configuration.
-Variable Blocks: 
-•	Variables allow you to parameterize your Terraform configuration, making it more flexible and reusable. 
-•	You can define variables in a separate .tf file or within the same configuration file.
-Output Blocks: 
-•	Output blocks define values that are exposed to the user after the Terraform execution.
-•	They allow you to view useful information, such as IP addresses or resource IDs, that you may need after the deployment is complete.
-Terraform Backend: 
-•	The backend is responsible for storing the state file securely and making it available for team collaboration. 
-•	Terraform supports various backends, including local file storage, Amazon S3, Azure Blob Storage, HashiCorp Consul, and more.
-Terraform locally installed and configured AWS and created resources
+- The provider block specifies the cloud or infrastructure provider you want to use.
+- It defines the connection details and credentials required to authenticate with the provider's API.
 
+Resource Blocks: 
+- Resource blocks define the individual infrastructure resources that Terraform will manage.
+- They represent the resources you want to create, modify, or delete. Each resource block has a unique type and a set of arguments that configure the resource.
+
+Data Blocks: 
+- Data blocks allow you to fetch information from external sources, like existing resources or APIs, and use that data in your configuration.
+
+Variable Blocks: 
+- Variables allow you to parameterize your Terraform configuration, making it more flexible and reusable.
+- You can define variables in a separate .tf file or within the same configuration file.
+
+Output Blocks: 
+- Output blocks define values that are exposed to the user after the Terraform execution.
+- They allow you to view useful information, such as IP addresses or resource IDs, that you may need after the deployment is complete.
+
+Terraform Backend: 
+- The backend is responsible for storing the state file securely and making it available for team collaboration.
+- Terraform supports various backends, including local file storage, Amazon S3, Azure Blob Storage, HashiCorp Consul, and more.
+
+
+### Terraform locally installed and configured AWS and created resources
 Process:
 We need to install terraform
 •	URL: https://developer.hashicorp.com/terraform/install
